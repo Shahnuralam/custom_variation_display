@@ -1,0 +1,46 @@
+/* custom-variation-display.css */
+
+/* Style for the color swatches */
+.custom-variation-display .color-swatches {
+    margin-bottom: 20px;
+}
+
+.custom-variation-display .color-swatch {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.custom-variation-display .color-swatch img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Style for the selected color swatch */
+.custom-variation-display .color-swatch.selected {
+    border-color: #000;
+}
+
+/* Style for the size selection dropdown */
+.custom-variation-display .size-selection {
+    margin-bottom: 20px;
+}
+
+.custom-variation-display .size-selection select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for the product price display */
+.custom-variation-display .product-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
